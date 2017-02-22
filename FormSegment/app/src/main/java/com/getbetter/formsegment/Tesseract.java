@@ -19,7 +19,7 @@ import java.io.OutputStream;
 
 public class Tesseract {
 
-    private static final Tesseract OCR = new Tesseract();
+    static final Tesseract OCR = new Tesseract();
     private TessBaseAPI tesseract = new TessBaseAPI();
 
     public static Tesseract getInstance() { return OCR; }
